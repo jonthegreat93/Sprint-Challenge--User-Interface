@@ -271,19 +271,3 @@ nav {
         padding-top: 4%;
         padding-bottom: 3%;
     }
-    
-@media(max-width: 500px){
-
-    .container, .header, .top-content, .boxes, .bottom-content, .text-container, .middle-content{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    nav{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding:2%;
-
-}
