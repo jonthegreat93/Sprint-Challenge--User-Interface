@@ -320,24 +320,32 @@ nav {
             padding-bottom: 20px;  
         }
 
+       .cars img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+
+       }
+    
         .bottom-content{
             width:100%;
             display: flex;
             flex-direction: column;
-            padding: ;
+        
         }
 
         .bottom-content .text-container {
             width: 100%;
             padding: 0 5%;
-            font-size: 20px;
+            font-size: 17px;
             justify-content: space-evenly;
             padding-bottom: 10px;
         }
 
+
         .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 { 
             height: 0;
-            width: 0;
+            width: 10%;
             padding: 25%;
             display: flex;
             flex-direction: column;
