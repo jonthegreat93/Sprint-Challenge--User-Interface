@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,16 +102,116 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -120,6 +221,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +245,124 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding-top: 1%;
 }
+
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.logo {
+   padding-top: 2%;
+}
+ nav a{
+        text-decoration: none;
+        color:black;
+        padding-top: 5%;
+        font-size: 14px;
+        padding-right: 4%;
+    }
+
+    .cars{
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    @media(max-width: 500px){
+
+        .container{
+            width:100%;
+            overflow: hidden;
+        }
+
+        nav img{
+            padding: 10%;
+            margin-top: 10%;
+        }
+
+
+       header nav {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        }
+        
+
+        nav a{
+            font-size: 20px;
+            padding: 1%;
+            
+    
+        }
+        
+        h2{
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .middle-content h2{
+            text-align: center;
+        }
+
+        .middle-content{
+            border-bottom: none;
+        }
+        .top-content .text-container {
+            width: 100%;
+            padding: 0 5%;
+            padding-bottom: 20px;  
+        }
+
+       .cars img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+
+       }
+    
+        .bottom-content{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+        
+        }
+
+        .bottom-content .text-container {
+            width: 100%;
+            padding: 0 5%;
+            font-size: 17px;
+            justify-content: space-evenly;
+            padding-bottom: 10px;
+        }
+
+
+        .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 { 
+            height: 0;
+            width: 10%;
+            padding: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        footer{
+        margin-top: 15%;
+        }
+
+        footer  nav{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+    }
